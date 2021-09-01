@@ -1,9 +1,12 @@
-package com.company;
+package by.benikov;
+
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        String s = "deebd";
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
         System.out.println(makePalindrome(s));
     }
     public static String makePalindrome(String s) {
